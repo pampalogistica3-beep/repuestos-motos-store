@@ -1,0 +1,24 @@
+{
+  "name": "repuestos-motos-store",
+  "version": "1.0.0",
+  "description": "Plataforma de e-commerce para repuestos de motos",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install-all": "npm install && npm install --workspace=frontend && npm install --workspace=backend",
+    "dev": "npm run dev --workspace=frontend & npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend",
+    "start": "npm start --workspace=backend"
+  },
+  "keywords": [
+    "motos",
+    "repuestos",
+    "e-commerce",
+    "tienda-online"
+  ],
+  "author": "pampalogistica3-beep",
+  "license": "MIT"
+}
